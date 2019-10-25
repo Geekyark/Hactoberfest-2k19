@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int d,r,x,count=0,t,s=0;
+    scanf("%d",&d);
+    t=22/7;
+    while(d>0)
+    {
+        scanf("%d %d",&r,&x);
+        s=2*t*r;
+        if(s<=x)
+        count++;
+        d--;
+    }
+    printf("%d",count);
+}
+
+
+
+
+
+
+
